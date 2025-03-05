@@ -44,4 +44,3 @@ def text_node_to_html_node(text_node):
             })
         case _:
             raise Exception(f"{text_node.text_type} is not a valid TextType")
-
